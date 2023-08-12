@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<char> novalista(vector<char> &lista, int posicao)
+    vector<char> novalista(vector<char> &lista, int posicao) // Function for new substring
     {
         vector<char> nova;
         int i = posicao + 1;
