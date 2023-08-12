@@ -45,11 +45,11 @@ int lengthOfLongestSubstring(string s) {
 int main()
 {
     string s;
-    cout << "Digite uma palavra:";
+    cout << "Digite uma palavra: ";
     cin >> s;
     cout << endl;
 
-    cout << "O tamanho da maior substring é" << lengthOfLongestSubstring(s) << endl;
+    cout << "O tamanho da maior substring é " << lengthOfLongestSubstring(s) << endl;
 
     return 0;
 }
